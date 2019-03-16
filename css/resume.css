@@ -342,33 +342,36 @@ section.message>ol>li{
   padding: 12px;
   border-bottom: 1px solid #ddd;
 }
-.message{
-  margin-bottom: 10px;
-}
-.message > input{
-  padding: 6px;
-  border-bottom: 1px solid #ddd;
-}
 .messageList >li{
   box-sizing: border-box;
   box-shadow: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04);
   border-radius: 4px;
-
+  
 }
-
-
-#box {
-  width: 800px;
-  margin: 0 auto;
+.message .postMessageForm{
+  width: 700px;
+  margin: 45px auto;
 }
-textarea {
-  width: 800px;
+.message .message-name{
+  box-sizing:border-box;
+  border:1px solid #aeb0b4;
+  margin:5px;
+  padding:4px;
+  border-radius: 2px;
 }
-#li {
-  display: block;
-  border-bottom: 1px dashed #ebebeb;
-  margin: 10px 0;
-  padding: 8px 0;
+.message .textarea{
+margin:5px -5px 5px -2px; 
+padding:5px 50px 5px 9px;
+width:700px; 
+font-size: 16px;
+border-radius: 6px;
+}
+.message .message-button{
+ padding:5px 8px;
+  margin:2px 6px 2px 6px; 
+  border-radius:3px;
+  text-align: center;
+  cursor:pointer
 }
 
 
