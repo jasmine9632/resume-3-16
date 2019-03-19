@@ -182,12 +182,19 @@
 <!--留言板-->
 </section>
 <section class="message">
-<h2>留言</h2>
+<h2 class="title">留言</h2>
 <form id="postMessageForm" class="postMessageForm" >
-<label for="">姓名</label>
-<input type="text" name="name"    class="message-name" >
-<textarea name="content" id="text" cols="5" rows="6" placeholder="请输入内容" class="textarea" ></textarea>
-<input type="submit" value="提交" class="message-button" > 
+  <div class="row">
+<label for="" class="left">姓名</label>
+<input type="text" name="name"    class="right" >
+</div>
+<div class="row">
+  <label for="" class="left"> 留言内容</label>
+<textarea name="content" id="text" cols="5" rows="6" placeholder="请输入内容" class="right" ></textarea>
+</div>
+<div class="row">
+<input type="submit" value="提交" class="submit" > 
+</div>
 </form>
 
 <ol id="messageList" class="messageList"></ol>
